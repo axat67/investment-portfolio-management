@@ -174,6 +174,13 @@ The dashboard provides a consolidated view of:
 - Rebalancing
 - Wealth Advisory
 
+Disclaimer
+
+This project is an educational portfolio-management model based on a fictional client profile and historical market data. It is not investment advice or a recommendation to buy or sell any security.
+
+Note: The benchmark used in this model is the NIFTY 50 price index and not the NIFTY 50 Total Return Index (TRI).
+
+
 ## Project Structure
 
 ```text
@@ -191,9 +198,3 @@ investment-portfolio-management/
 ├── Screenshots/
 │
 └── Documentation/
-
-Disclaimer
-
-This project is an educational portfolio-management model based on a fictional client profile and historical market data. It is not investment advice or a recommendation to buy or sell any security.
-
-Note: The benchmark used in this model is the NIFTY 50 price index and not the NIFTY 50 Total Return Index (TRI).
