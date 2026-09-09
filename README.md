@@ -6,6 +6,22 @@ This project is an Excel-based Investment Portfolio Management and Wealth Adviso
 
 The model evaluates portfolio performance, risk, diversification, asset allocation, benchmark performance, and rebalancing requirements to support investment decision-making.
 
+## Skills Demonstrated
+
+- Financial Modeling
+- Excel Spreadsheet Modeling
+- Portfolio Analysis
+- Investment Analysis
+- Risk Analysis
+- Asset Allocation
+- Portfolio Rebalancing
+- Benchmark Analysis
+- Diversification Analysis
+- Financial Dashboard Development
+- Data Analysis
+- Wealth Advisory
+
+  
 ## Client Profile
 
 | Parameter | Details |
