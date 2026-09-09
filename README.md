@@ -8,16 +8,18 @@ The model evaluates portfolio performance, risk, diversification, asset allocati
 
 ## Client Profile
 
-- **Client:** Rahul Sharma
-- **Age:** 35
-- **Investable Assets:** ₹1 Crore
-- **Investment Horizon:** 10 Years
-- **Investment Objective:** Long-Term Wealth Creation
-- **Risk Profile:** Moderately Aggressive
-- **Liquidity Requirement:** Medium
-- **Primary Objective:** Capital Appreciation
-- **Benchmark:** NIFTY 50
-- **Review Frequency:** Quarterly
+| Parameter | Details |
+|---|---|
+| Client | Rahul Sharma |
+| Age | 35 |
+| Investable Assets | ₹1 Crore |
+| Investment Horizon | 10 Years |
+| Investment Objective | Long-Term Wealth Creation |
+| Risk Profile | Moderately Aggressive |
+| Liquidity Requirement | Medium |
+| Primary Objective | Capital Appreciation |
+| Benchmark | NIFTY 50 |
+| Review Frequency | Quarterly |
 
 ## Portfolio
 
@@ -36,11 +38,19 @@ The portfolio consists of diversified equity holdings, a broad-market equity ETF
 - Nippon India ETF Nifty BeES
 - Nippon India ETF Gold BeES
 
-The target portfolio allocation is **85% equity and 15% gold**, with NIFTYBEES serving as the core diversified equity position and individual stocks serving as satellite positions.
+The target portfolio allocation is 85% equity and 15% gold, with NIFTYBEES serving as the core diversified equity position and individual stocks serving as satellite positions.
+
+## Portfolio Analysis
+
+The Portfolio worksheet calculates invested value, current value, gain/loss, and return for each holding.
+
+![Portfolio Analysis](Screenshots/Portfolio_Analysis.png)
 
 ## Performance Analysis
 
-**Analysis Period:** January 2022 – December 2025
+The Performance worksheet compares portfolio performance with the NIFTY 50 using total return, CAGR, volatility, Sharpe ratio, and maximum drawdown.
+
+### Key Performance Metrics
 
 | Metric | Portfolio | NIFTY 50 |
 |---|---:|---:|
@@ -50,62 +60,36 @@ The target portfolio allocation is **85% equity and 15% gold**, with NIFTYBEES s
 | Sharpe Ratio | 0.465 | 0.423 |
 | Maximum Drawdown | -13.96% | -14.28% |
 
-The portfolio generated a slightly higher CAGR and Sharpe ratio than the NIFTY 50 while maintaining lower annualized volatility and a slightly better maximum drawdown.
-
-## Portfolio Valuation
-
-- **Initial Investment:** ₹9.99 Million
-- **Current Portfolio Value:** ₹14.93 Million
-- **Portfolio Gain:** ₹4.94 Million
-- **Portfolio Return:** 49.42%
-
-The portfolio valuation is based on the actual holdings and their respective purchase prices and closing prices.
+![Performance Analysis](Screenshots/Performance.png)
 
 ## Risk Analysis
 
-The model evaluates:
+The Risk Analysis worksheet evaluates portfolio risk relative to the NIFTY 50 using annualized volatility, Sharpe ratio, maximum drawdown, best monthly return, worst monthly return, and positive-month percentage.
 
-- Annualized volatility
-- Sharpe ratio
-- Maximum drawdown
-- Best monthly return
-- Worst monthly return
-- Percentage of positive months
-
-Monthly month-end portfolio values are used for the performance and risk analysis.
+![Risk Analysis](Screenshots/Risk_Analysis.png)
 
 ## Asset Allocation
 
-### Target Allocation
+The portfolio has a target allocation of 85% equity and 15% gold.
 
-- **Equity:** 85%
-- **Gold:** 15%
+The current portfolio allocation is:
 
-### Current Allocation
+- Equity: 73.49%
+- Gold: 26.51%
 
-- **Equity:** 73.49%
-- **Gold:** 26.51%
+The model compares current allocation with target allocation to identify overweight and underweight positions.
 
-The portfolio is currently underweight equity and overweight gold relative to the target allocation.
+![Asset Allocation](Screenshots/Asset_Allocation.png)
 
-## Diversification
+## Diversification Analysis
 
-The model analyzes portfolio exposure across:
+The diversification analysis evaluates portfolio exposure across sectors and investment categories, including Energy, Financials, Information Technology, FMCG, Industrials, Healthcare, NIFTYBEES, and GOLDBEES.
 
-- Energy
-- Financials
-- Information Technology
-- FMCG
-- Industrials
-- Healthcare
-- Broad-market equity ETF
-- Gold ETF
+![Diversification Analysis](Screenshots/Diversification.png)
 
-This helps identify sector and asset-class concentration and supports more informed portfolio allocation decisions.
+## Rebalancing Analysis
 
-## Rebalancing
-
-The rebalancing module compares current portfolio weights with target weights and calculates the required buy or sell amount.
+The Rebalancing worksheet compares current portfolio weights with target weights and calculates the required buy or sell amount for each security.
 
 ### Key Rebalancing Actions
 
@@ -115,11 +99,13 @@ The rebalancing module compares current portfolio weights with target weights an
 | GOLDBEES | SELL | ₹1.72M | High |
 | LT | SELL | ₹0.95M | Medium |
 
-The largest recommended adjustment is to increase the diversified NIFTYBEES allocation while reducing excess gold exposure.
+![Rebalancing Analysis](Screenshots/Rebalancing.png)
 
-## Wealth Advisory Recommendations
+## Wealth Advisory
 
-Based on the portfolio analysis:
+The Wealth Advisory worksheet converts the portfolio analysis into actionable recommendations based on the client's risk profile, investment horizon, asset allocation, and portfolio performance.
+
+### Key Recommendations
 
 1. Increase NIFTYBEES toward its target allocation.
 2. Reduce GOLDBEES exposure toward the 15% target.
@@ -128,11 +114,13 @@ Based on the portfolio analysis:
 5. Increase underweight core equity positions.
 6. Review and rebalance the portfolio quarterly.
 
+![Wealth Advisory](Screenshots/Wealth_Advisory.png)
+
 ## Dashboard
 
-![Investment Portfolio Dashboard](Dashboard/Portfolio_Dashboard.png)
+The dashboard provides a consolidated view of the portfolio and wealth-management analysis.
 
-The dashboard provides a consolidated view of:
+It includes:
 
 - Portfolio value
 - Total return
@@ -146,9 +134,19 @@ The dashboard provides a consolidated view of:
 - Portfolio exposure
 - Rebalancing alerts
 
+![Investment Portfolio Management Dashboard](Dashboard/Portfolio_Dashboard.png)
+
+
+## Portfolio Valuation
+
+- **Initial Investment:** ₹9.99 Million
+- **Current Portfolio Value:** ₹14.93 Million
+- **Portfolio Gain:** ₹4.94 Million
+- **Portfolio Return:** 49.42%
+
 ## Tools & Skills
 
-### Technical
+### Technical Skills
 
 - Excel / Spreadsheet Modeling
 - Google Sheets
@@ -161,7 +159,7 @@ The dashboard provides a consolidated view of:
 - Data Analysis
 - Financial Dashboard Development
 
-### Financial
+### Financial Concepts
 
 - Portfolio Return
 - CAGR
@@ -171,15 +169,14 @@ The dashboard provides a consolidated view of:
 - Diversification
 - Asset Allocation
 - Benchmarking
-- Rebalancing
+- Portfolio Rebalancing
 - Wealth Advisory
 
-Disclaimer
+## Disclaimer
 
 This project is an educational portfolio-management model based on a fictional client profile and historical market data. It is not investment advice or a recommendation to buy or sell any security.
 
 Note: The benchmark used in this model is the NIFTY 50 price index and not the NIFTY 50 Total Return Index (TRI).
-
 
 ## Project Structure
 
@@ -195,6 +192,11 @@ investment-portfolio-management/
 │   ├── Portfolio_Dashboard.png
 │   └── Portfolio_Dashboard.pdf
 │
-├── Screenshots/
-│
-└── Documentation/
+└── Screenshots/
+    ├── Portfolio_Analysis.png
+    ├── Performance.png
+    ├── Risk_Analysis.png
+    ├── Asset_Allocation.png
+    ├── Diversification.png
+    ├── Rebalancing.png
+    └── Wealth_Advisory.png
