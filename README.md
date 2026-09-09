@@ -44,7 +44,7 @@ The target portfolio allocation is 85% equity and 15% gold, with NIFTYBEES servi
 
 The Portfolio worksheet calculates invested value, current value, gain/loss, and return for each holding.
 
-![Portfolio Analysis](Screenshots/Portfolio_Analysis.png)
+![Portfolio Analysis](Screenshots/Portfolio_Analysis.jpeg)
 
 ## Performance Analysis
 
@@ -79,13 +79,13 @@ The current portfolio allocation is:
 
 The model compares current allocation with target allocation to identify overweight and underweight positions.
 
-![Asset Allocation](Screenshots/Asset_Allocation.png)
+![Asset Allocation](Screenshots/Asset_Allocation.jpeg)
 
 ## Diversification Analysis
 
 The diversification analysis evaluates portfolio exposure across sectors and investment categories, including Energy, Financials, Information Technology, FMCG, Industrials, Healthcare, NIFTYBEES, and GOLDBEES.
 
-![Diversification Analysis](Screenshots/Diversification.png)
+![Diversification Analysis](Screenshots/Diversification.jpeg)
 
 ## Rebalancing Analysis
 
@@ -99,7 +99,7 @@ The Rebalancing worksheet compares current portfolio weights with target weights
 | GOLDBEES | SELL | ₹1.72M | High |
 | LT | SELL | ₹0.95M | Medium |
 
-![Rebalancing Analysis](Screenshots/Rebalancing.png)
+![Rebalancing Analysis](Screenshots/Rebalancing.jpeg)
 
 ## Wealth Advisory
 
